@@ -1,0 +1,55 @@
+#box  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid wheat;
+    text-align: center;
+   
+  }
+
+
+  @media(min-width:880px)
+  {
+    #time
+  {
+    font-size: 10rem;
+  }
+
+  }
+  @media(max-width:976px)
+  {
+    #time
+    {
+      font-size:2rem
+    }
+  }
+  
+ 
+  .big-box
+  {
+    text-align: center;
+    font-size: 2rem;
+  }
+ 
+body{
+    background-color: cornflowerblue;
+    color: aliceblue;
+  
+}
+button
+{
+    width: 10rem;
+    height: 3rem;
+    background-color: cornflowerblue;
+    border-style:solid;
+    border-color: aliceblue;
+    color: aliceblue;
+    margin-top: 2rem;
+ 
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
